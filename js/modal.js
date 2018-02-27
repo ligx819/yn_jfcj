@@ -15,7 +15,7 @@ var Modal = {
         var modal_wrapper = $('<div>').addClass('modal fade');
         var modal_dialog  = $('<div>').addClass('modal-dialog');
         var modal_content = $('<div>').addClass('modal-content');
-        var modal_form    = $('<form>').attr({name:'modal_form', id:'modal_form', action:Modal.url, method:'post'});
+        var modal_form    = $('<form>').attr({name:'modal_form', id:'modal_form', action:Modal.url, method:'get'});
 
 		var classname = '';
     	if(Modal.size == 'large'){
